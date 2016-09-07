@@ -170,6 +170,14 @@
                                     <goal>install-server</goal>
                                     <goal>install-feature</goal>
                                 </goals>
+                                <configuration>
+                                    <assemblyArtifact>
+                                        <groupId>com.ibm.websphere.appserver.runtime</groupId>
+                                        <artifactId>wlp-webProfile7</artifactId>
+                                        <version>8.5.5.7</version>
+                                        <type>zip</type>
+                                    </assemblyArtifact>
+                                </configuration>
                             </execution>
                             <execution>
                                 <id>start-liberty-server</id>
